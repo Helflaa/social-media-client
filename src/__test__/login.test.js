@@ -1,5 +1,5 @@
 // Mock the dependencies used in login function
-import { login } from "../js/api/auth/login";
+import { login } from "../js/api/auth/login.js";
 import { save } from "../js/storage/index";
 
 jest.mock("../js/storage/index", () => ({
